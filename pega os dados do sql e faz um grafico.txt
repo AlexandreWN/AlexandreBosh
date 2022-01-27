@@ -15,7 +15,7 @@ cursor.execute(f"SELECT valor,tempo FROM dadosss;")
 row = cursor.fetchone()
 
 lista = []
-listaid = []
+listatempo = []
 
 while row:
     lista.append(row[0])
