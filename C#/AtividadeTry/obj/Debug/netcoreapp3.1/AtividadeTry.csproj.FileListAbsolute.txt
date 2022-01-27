@@ -1,0 +1,14 @@
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.exe
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.deps.json
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.runtimeconfig.json
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.runtimeconfig.dev.json
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.dll
+C:\Users\aluno\Desktop\AtividadeTry\bin\Debug\netcoreapp3.1\AtividadeTry.pdb
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.AssemblyInfo.cs
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.dll
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.pdb
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.genruntimeconfig.cache
+C:\Users\aluno\Desktop\AtividadeTry\obj\Debug\netcoreapp3.1\AtividadeTry.csproj.AssemblyReference.cache

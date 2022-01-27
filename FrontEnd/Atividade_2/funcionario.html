@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario | GN</title>
+</head>
+<body>
+    <header class="menu">
+		<div class="menu-container">
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="cliente.html">Cliente</a></li>
+					<li><a href="fornecedor.html">Fornecedor</a></li>
+					<li><a href="funcionario.html">Funcionario</a></li>
+					<li><a href="produtos.html">Produto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <div class="box">
+        <form action="">
+            <fieldset class="batata">
+                <legend><b>Formulário de Funcionarios</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cpf" id="senha" class="inputUser" required pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
+                    <label for="cpf" class="labelInput">Cpf</label>
+                </div>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" required>
+                <br><br>
+                <label for="data_nascimento"><b>Data de Admissão:</b></label>
+                <input type="date" name="data_nascimento" required>
+                <br><br>
+                <label for="data_nascimento"><b>Data de Demissão:</b></label>
+                <input type="date" name="data_nascimento">
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Estado</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="number" name="numero" id="numero" class="inputUser" required>
+                    <label for="numero" class="labelInput">Numero</label>
+                </div>
+                <br><br>
+                <p>Dependentes:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Não se aplica</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">1 - 3</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <div class="coisa">
+                    <input type="submit" name="submit" id="submit">
+                    <input type="reset" name="reset" id="cancel">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

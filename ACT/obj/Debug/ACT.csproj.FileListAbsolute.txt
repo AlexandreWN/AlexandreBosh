@@ -1,0 +1,7 @@
+C:\Users\aluno\Desktop\ACT\obj\Debug\ACT.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\ACT\obj\Debug\ACT.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\ACT\bin\Debug\ACT.exe.config
+C:\Users\aluno\Desktop\ACT\bin\Debug\ACT.exe
+C:\Users\aluno\Desktop\ACT\bin\Debug\ACT.pdb
+C:\Users\aluno\Desktop\ACT\obj\Debug\ACT.exe
+C:\Users\aluno\Desktop\ACT\obj\Debug\ACT.pdb

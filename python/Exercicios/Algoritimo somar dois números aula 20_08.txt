@@ -1,0 +1,17 @@
+Algoritimo: somar dois números
+
+inicio
+	var 
+	  real: N1, N2, Resultado;
+
+	Escreva "digite um número";
+	Leia N1;
+	
+	Escreva "digite outro número";
+	Leia N2;
+
+	Resultado = N1 + N2;
+
+	Escreva "seu resultado é: " +Resultado;
+
+fim

@@ -1,0 +1,7 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\bin\Debug\Aula_11.exe.config
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\bin\Debug\Aula_11.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\bin\Debug\Aula_11.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\obj\Debug\Aula_11.csproj.AssemblyReference.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\obj\Debug\Aula_11.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\obj\Debug\Aula_11.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_12\Aula_11\Aula_11\obj\Debug\Aula_11.pdb

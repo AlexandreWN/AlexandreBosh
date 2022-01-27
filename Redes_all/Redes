@@ -1,0 +1,278 @@
+Fundamentos de rede{
+
+	O que é comunicação{
+		regras e protocolos, que devem ser seguidos parar que a mensagem seja transmitida e entendida com sucesso.
+	}
+
+	Elementos{
+		Regras
+			Acordo que define como vai ocorrear a comunicação, determina como as mensagens vão ser enviadas, recebidas, direcionadas e interpretadas.
+
+		Meios fisicos
+			Um meio, interligao processo, transmitir as mensagens de um dispositivo para outro.
+			Cabo, ar, etc.
+
+		Mensagens
+			A mensagem é a informação que vai de um para o outro.
+
+		Dispositivos
+			Na rede trocam as mensagens entre si.
+	}
+
+	Simbolos{
+		Existem simbologias para redes.
+	}
+	
+	Redes Múltiplas{
+		cada serviço possua seu proprio conjunto de regras e padrões para assegurar a comunicação bem sucedida de seu sinal por meio especifico.
+	}
+	
+	Redes covergidas{
+		Multiplataformas.
+	}
+	
+	Arquitetura da rede{
+		Tolerancia a falhas{
+			Limita o impacto de uma falha no hardware ou software e consegue se recuperar rapdaemnte quando tal falha ocorre.
+		}
+		
+		Escalabilidade{
+			Pode se expandir rapdamente para suportar novos usuários e aplicações, sem causar impacto no desempenho do serviço fornecido aos usuários existentes.
+		}
+		
+		Qualidade de serviço{
+			Assegura que as prioridades sejam correspondentes ao tipo de comunicação.
+		}
+		
+		Segurança{
+			Fisica{
+				Hardware (Manter em locais seguros)
+				Deixar equipamentos vulneraveis em locais seguros.
+			}
+			
+			Lógica{
+				Software (Autenticação)
+				Antivirus nas maquinas clientes.
+				Farewal - barreira de entrada para sua rede local.
+			}
+			
+			Medidas basicas da segurança{
+				Garantir Confidenciabilidade{
+					Autenticação
+					Criptografia
+				}
+				
+				Manter a Integridade{
+					Assinatura digital
+				}
+				
+				Garantir Disponibilidade{
+					Firewalls
+					Redundancia
+					Evitar um unico ponto de falha
+				}
+			}
+		}
+		
+		Segmentação de dados{
+			Dividir os dados em pedaços menores e mais gerenciaveis para o envio através da rede-segmentação
+			Segmentar mensagens gera dois beneficios primarios{
+				
+			}
+			Multiplexação{
+				permite intercalar os pedaços de informação separada na rede
+					Vantagens{
+						se parte da mensagem falhar ao ser enviada ao destino ele renvia os perdidos
+					}
+			}
+		}
+		
+		Componentes{
+			Dispositivos fisicos (Por onde circula as informações(Elementos fisicos)){
+				Computadores, switches, servidores, etc.
+				
+				Placas{
+					Responsavel por toda a entrada e saida das informações no dispositivo (Todos possuem)
+				}
+				
+				Hubs{
+					Permitia interconectar computadores
+					Dispara as inforações para todas as maquinas conectadas (Ineficiente)
+					Não permite o Unicast
+				}
+				
+				swtches{
+					Possui gerenciamento (Interface) para criar configurações especificas
+					Ele busca o endereçamento pela tabela Arp (endereço fisico e endereço lógico) e envia para o destinatario correto
+					Só envia para todos na primeira vez
+					Ele permite unicast
+					A VLAN Fica no Switch
+				}
+				
+				Roteador{
+					Possui a função de Encaminhamento de pacote
+					Definir Rotas para as informaões
+				}
+				
+				Modem {
+					Modulador  e Demodulador
+					Converte sinal analogico em sinal digital
+				}
+				
+				Access Point{
+					Transmitir a informação que vem atravez do cabo para o ar
+				}
+			}
+			
+			meios de transmissão{
+				Tipo por onde as informações são transmitidas
+				
+				Meios fisicos{
+					Par trançado - stp  conector type-1(Dois pares cabos de fio trançado blindado)
+					
+					Par traçado - utp conector rj45(dois a quatro pares de fio de cobre trançados não bliendado)
+					
+					Cabo coaxial - Conector Bnc (capa, blindagem, dieletrico e condutor central)
+					
+					Fibra óptica - (alto custo, imune a interferencia eletromagnetica, dificuldade para fazer junções(caro e trabalhoso), pode atingir longas distâncias)
+					
+					Radiofusão - (radio frequencia)
+					
+					Critérios para utlizar{
+						1.Distancia que o meio fisico consegue transmitir um sinal com exito
+						2.Ambiente no qual o meio fisico deve ser instalado
+						3.Quantidade de dados e velocidade
+						4.O custo
+					}
+				}
+			}
+			
+			
+			Seviços{
+				Garantem a funcionalidade
+				anco de dados, softwares, protocolos, etc.
+			}
+		}
+		
+		Classificação das redes{
+			Geografia da rede{
+				Forma que os computadores estã oconectados entre si
+				1.Lan (Local area network) ambientes pequenos
+				2.Man (Metropolian are network) Conectam cidades
+				3.Wan(wide area network) Conectam paises
+				4.Pan (personal area network)
+				5.Van
+				6.Can
+			}
+		}
+		
+		Interconecssões de redes{
+			Topologia fisica{
+				lealt e como os dispositivos estão conectados
+				Conecçõeos fisicas{
+					ponto a ponto{
+						1 a 1
+					}
+					multi ponto{
+						1 a n
+					}
+					
+					Anel{
+						Fluxo de dados corre em uma unica fonto de direção
+					}
+					
+					Barra{
+						Ligadas em paralelo, se o cabo quebrar cai tudo, fluxo bi direcional, atenuação do sinal com o tamanho
+					}
+					
+					Estrela{
+						cONCENTRADOR
+						Numero de estações limitados ao no central 
+						fluxo de dados full duplex
+					}
+					
+					Malha{
+						Tolerante a falhas 
+						Utilizadas em roteadores para rotas alternativas
+					}
+					
+					Sem fio{
+						Wi-fi, rado etc
+						problemas de segurança fisica e lógica
+						Interferencia no mesmo espectro
+						Obstaculos atrapalham a comunicação
+						
+						Mobilidade
+						escalabilidade
+					}
+					
+					Redes Hibridas{
+						Junção de varios tipos de topologial
+					}
+					
+					Formas de utilização{
+						Simplex
+						Half-duplex
+						full-duplex
+					}
+					
+					Redes Ponto a ponto{
+						não utiliza servidores
+						vantagens
+							baixo custo
+							facil implementação
+							funciona sem conexão de rede
+						Desvantagens
+							Não existe administrador de rede
+							não é escalavel
+							baixa segurança
+					}
+					
+					Rede cliente servidor{
+						vantagens
+							maior desempenho
+							alta segurança
+							manutenção centalizada
+						desvantagens
+							custo mais elevado
+							mão de obra especializada
+							dependencia do servido
+					}
+					
+					Topos de servidores{
+						Arquivos{
+							Armazenamento de arquivos
+						}
+						Impressão{
+							processar os pedidos de impressão solicitados pelos micros da rede e envia-los para as impressoras disponiveis
+						}
+						Aplicação{
+							responsavel por executar aplicações
+						}
+					}
+				}
+				
+				
+				
+			}
+			
+			Topologia Logica{
+				protocolos
+				estruturas de servidores
+			}
+		}
+	}
+}
+
+modelo OSI{
+	É dividido em 7 camadas
+	1.Fisica ()
+	2.Enlaçe (endereço fisico)
+	3.Rede(lógico)
+	4.Transporte (portas , protocolos)
+	5.Sessões ()
+	6.Apresentação ()
+	7.Interface ()
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>Formulario Concurso</title>
+</head>
+<body>
+    <header class="menu">
+		<div class="menu-container">
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Portfólio</a></li>
+					<li><a href="#">Contato</a></li>
+                    <p id="gradiente"><b>Concurso</b></p>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <div> 
+        <h1 id="titulo"> Cadastro de Concorrentes</h1>
+        <p id="subtitulo">Informações Do Candidato(a)</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input class="whit" type="text" name="Nome" id="nome" required>       
+            </div>
+            <div class="campo">
+                <label for="idade"> <strong>Idade</strong></label>
+                <input class="whit" type="number"  min="0" name="idade" id="idade" required>
+            </div>
+            <div class="campo">
+                <label for="altura"> <strong>Altura</strong></label>
+                <input class="whit" type="number"  min="1" name="altura" id="altura" required>
+            </div>
+            <div class="campo">
+                <label for="peso"> <strong>Peso</strong></label>
+                <input class="whit" type="number"  min="1" name="peso" id="peso" required>
+            </div>
+            <div class="campo">
+                <label for="peso"> <strong>Cpf</strong></label>
+                <input type="text" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label><strong>Sexo</strong></label>
+            <label>
+                <input type="radio" name="sexo" value="masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="feminino">Feminino
+            </label>
+        </div>
+        <div class="bototo">
+            <button type="submit" class="botao">Concluir</button>
+            <button type="reset"  class="botao">Limpar</button>
+        </div>
+    </form>
+
+</body>
+</html>

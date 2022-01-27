@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(33, 31, 31), rgb(0, 0, 0));
+}
+.box{
+    position: absolute;
+    left: 50%;
+    margin-top: 36%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    color: white;
+}
+.menu{
+    background: #252525;
+    padding: 10px 0;
+    margin-left:-20%;
+    margin-top: 0;
+}
+
+.menu-container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.menu-container::after, .menu-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu-nav{
+    float: right;
+    margin-right: 2%;
+}
+
+.menu-nav li{
+    display:inline-block;
+}
+
+.menu-nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+    padding: 15px;
+}
+.menu-nav a:hover{
+    color: rgb(100, 97, 97);
+}
+.menu-nav p{
+    margin-left: -225%;
+    margin-top: -10%;
+}
+
+
+fieldset{
+    border: 3px solid rgb(0, 0, 0);
+}
+
+legend{
+    border: 1px solid rgb(0, 0, 0);
+    padding:10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 10
+    0%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(54, 62, 70), rgb(13, 13, 14));
+    width: 48%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#cancel{
+    background-image: linear-gradient(to right, rgb(54, 62, 70), rgb(13, 13, 14));
+    width: 48%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(136, 136, 150));
+}
+#cancel:hover{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(136, 136, 150));
+}
+textarea{
+    resize: none;
+}
+fieldset{
+    border-color: #ffff;
+}
+.coisa{
+    display:flex;
+}
+
+@media (max-width: 739px){
+    .box{
+        margin-top:110%;
+    }
+}

@@ -1,0 +1,94 @@
+/*12) escreva um programa que leia duas palavras e diga qual deles vem primeiro por ordem alfabética
+
+using System;
+class Program
+{
+    public static void Main()
+    {
+        string p1, p2;
+        int cont = 0;
+        Console.WriteLine("Digite a primeira palavra: ");
+        p1 = Console.ReadLine();
+        Console.WriteLine("Digite a segunda palavra: ");
+        p2 = Console.ReadLine();
+
+        while (p1[cont] == p2[cont])
+        {
+            cont++;
+            continue;
+        }
+        if(p1[cont] < p2[cont])
+            {
+                Console.WriteLine("{0} vem antes de {1}", p1, p2);
+            }
+        else
+            {
+                Console.WriteLine("{1} vem antes de {0}", p1, p2);
+            }
+        
+    }
+}*/
+/*13) Faça um programa que, dada uma string, diga se ela eh um palindromo ou nao.
+
+using System;
+class Program
+{
+    public static void Main()
+    {
+        string palavra;
+        int i, a;
+
+        Console.WriteLine("Digite uma palavra: ");
+        palavra = Console.ReadLine();
+        bool aux = false;
+        a = palavra.Length - 1;
+
+        for (i = 0; i < palavra.Length; i++)
+        { 
+            if (palavra[i] == palavra[a])
+            {
+                aux = true;
+            }
+            else
+            {
+                aux = false;
+            }
+            a--;
+        }
+        if (aux)
+        {
+            Console.WriteLine("{0} eh um palíndromo", palavra);
+        }
+        else 
+        { 
+            Console.WriteLine("{0} nao eh um palíndromo", palavra); 
+        }
+
+    }
+}*/
+
+/*14) Construa um programa que leia duas strings fornecidas pelo usuario e verifique se a segunda 
+ * string lida esta contida no final da primeira*/
+
+using System;
+class Program
+{
+    public static void Main()
+    {
+        string p1, p2;
+
+        Console.WriteLine("Digite a primeira palavra: ");
+        p1 = Console.ReadLine();
+        Console.WriteLine("Digite a segunda palavra: ");
+        p2 = Console.ReadLine();
+
+        if (p1.EndsWith(p2))
+        {
+            Console.WriteLine("{0} esta contida em {1}", p2, p1);
+        }
+        else
+        {
+            Console.WriteLine("{0} nao esta contida em {1}", p2, p1);
+        }
+    }
+}

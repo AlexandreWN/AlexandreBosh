@@ -1,0 +1,160 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main(void) {
+  /*
+  //EXERCICIO 01
+  //variaveis
+  double atual = 0, reajuste = 0, bonus = 0;
+  int tempo = 0;
+  //entrada de dados
+  printf("Digite o salario Atual do Funcionario: ");
+  scanf("%lf", &atual);
+  printf("Digite o tempo de casa que ele tem: ");
+  scanf("%d", &tempo);
+
+  if(tempo < 1 && atual <= 500){
+    reajuste = atual * 1.25;
+    bonus = 0;
+  }
+  else if(tempo >= 1 && tempo <= 3 && atual <= 1000){
+    reajuste = atual * 1.20;
+    bonus = 100;
+  }
+  else if(tempo >= 4 && tempo <= 6 && atual <= 1500){
+    reajuste = atual * 1.15;
+    bonus = 200;
+  }
+  else if(tempo >= 7 && tempo <= 10 && atual <= 2000){
+    reajuste = atual * 1.10;
+    bonus = 300;
+  }
+  else if(tempo > 10 && atual > 2000){
+    reajuste = atual;
+    bonus = 500;
+  }
+
+  printf("Salario: %.2lf \nSalario com reajuste e bonus: %.2lf \ntempo de servico: %d \nbonus recebido: %.2lf",atual,reajuste + bonus, tempo,bonus);
+  return 0;
+  */
+
+
+
+
+
+  //EXERCICIO 02
+  /*
+  int op = 0;
+  bool x = true;
+  double velo = 0, result;
+  while(x){
+    printf("Digite 1 para converter de km/h para m/s\nDigite 2 para coverter de m/s para km/h\nDigite 3 para finalizar o programa\n");
+    scanf("%d",&op);
+    switch (op){
+      case 1:
+        printf("Digite a Velocidade: ");
+        scanf("%lf", &velo);
+        result = velo / 3.6;
+        printf("%.3lf m/s\n", result);
+        break;
+      case 2:
+        printf("Digite a Velocidade: ");
+        scanf("%lf", &velo);
+        result = velo * 3.6;
+        printf("%.3lf km/h\n", result);
+        break;
+      case 3:
+        x = false;
+        printf("Bye");
+        break;
+      default:
+        printf("Erro opção invalida\n");
+        break;
+    }
+  }
+  */
+
+
+
+  //EXERCICIO 03
+/*
+  int buscar;
+  int i = 0;
+  int n =0;
+  int vetor[10];
+  int numero = 0;
+  int x = 0;
+  int contador = 0;
+  while(x < 10){
+    printf("Digite um numero: ");
+    scanf("%d", &numero);
+    while (n < contador){
+      if (vetor[n]== numero){
+        i = 1;
+      }
+      n++;
+    }
+    if (i ==1){
+      printf(" O elemento %d pertence ao conjunto não será adicionado\n",numero);
+    }
+    else{
+      printf(" O elemento %d nao pertence ao conjunto será adicionado\n",numero);
+      vetor[x] = numero;
+      contador++;
+      x++;
+    }
+    i = 0;
+    n = 0;
+  }
+  printf("Elementos salvos no vetor");
+  for(int i = 0; i < 10; i++){
+    printf("%d,",vetor[i]);
+  }
+  */
+
+
+
+
+  //EXERCICIO 04
+
+  //cria matriz
+  char matriz[5][10], i, j;
+  char gabarito[10] = {'a','b','c','d','a','b','c','d','a','b'};
+  int resultado[4];
+  int nota = 0;
+  printf("\n");
+ 
+  for (i=0; i<5; i++)
+  {
+    for (j=0; j<10; j++)
+    {
+      printf("\n Digite a opcao %d do aluno %d: ", j, i);
+      scanf("%s", &matriz[i][j]);
+      if (matriz[i][j] == gabarito[j]){
+        nota++;
+      }
+    }
+    resultado[i] = nota;
+    nota=0;
+  }
+ 
+  printf("\n");
+ 
+  for (i=0; i<5; i++)
+  {
+    for (j=0; j<10; j++)
+    {
+      printf("  %c", matriz[i][j]);
+    }
+    printf("\n");
+  }
+ 
+  printf("\n");
+
+  for(i = 0; i<5;i++){
+    printf("%d\n", resultado[i]);
+  }
+  return 0;
+}

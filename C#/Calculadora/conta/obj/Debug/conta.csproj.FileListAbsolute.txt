@@ -1,0 +1,10 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\bin\Debug\conta.exe.config
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\bin\Debug\conta.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\bin\Debug\conta.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.csproj.AssemblyReference.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.Form1.resources
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.Properties.Resources.resources
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.csproj.GenerateResource.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Calculadora\conta\obj\Debug\conta.pdb

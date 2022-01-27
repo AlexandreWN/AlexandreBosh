@@ -1,0 +1,13 @@
+algoritimo: média
+
+inicio 
+	
+	var
+	real: n1,n2,n3,n4,resultado;
+	
+	leia n1,n2,n3,n4;
+	resultado = ( n1+n2+n3+n4)/4;
+
+	escreva "sua média é" resultado;
+
+fim 

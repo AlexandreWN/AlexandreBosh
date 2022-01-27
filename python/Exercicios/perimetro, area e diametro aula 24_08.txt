@@ -1,0 +1,13 @@
+import math
+
+raio = float(input ("digite seu raio: " ))
+
+diametro = 2 * raio;
+perimetro = 2 * math.pi * raio;
+area = math.pi * raio ** 2;
+
+print (f"""
+Diametro: {diametro}
+Perimetro: {perimetro}
+Area: {area}
+""")

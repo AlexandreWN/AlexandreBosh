@@ -1,0 +1,14 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.deps.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.runtimeconfig.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.runtimeconfig.dev.json
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.csproj.AssemblyReference.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.GeneratedMSBuildEditorConfig.editorconfig
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.AssemblyInfoInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.AssemblyInfo.cs
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.dll
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\Nova pasta\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.genruntimeconfig.cache

@@ -1,0 +1,7 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\bin\Debug\questão 7.exe.config
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\bin\Debug\questão 7.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\bin\Debug\questão 7.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\obj\Debug\questão 7.csproj.AssemblyReference.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\obj\Debug\questão 7.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\obj\Debug\questão 7.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Prova2\questão 7\obj\Debug\questão 7.pdb

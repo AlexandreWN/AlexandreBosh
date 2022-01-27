@@ -1,0 +1,7 @@
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+S:\COM\Human_Resources\01.Engineering_Tech_School\02.Internal\10 - Aprendizes\5 - Desenvolvimento de Sistemas\Alexandre W. Nikitin\C#\Aula_04\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

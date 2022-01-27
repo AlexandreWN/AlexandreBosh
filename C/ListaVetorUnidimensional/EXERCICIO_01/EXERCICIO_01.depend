@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639486518 source:c:\users\aluno\desktop\bosch\c\listavetorunidimensional\exercicio_01\main.c
+	<stdio.h>
+	<stdlib.h>
+

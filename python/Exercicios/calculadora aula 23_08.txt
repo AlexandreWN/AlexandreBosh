@@ -1,0 +1,18 @@
+n1 = float (input ("Digite um número: "))
+n2 = float (input ("Digite outro número: "))
+operador = (input("Digite o operador: "))
+print (f'''seus números são: 
+{n1} e {n2}
+
+
+o calculo é:''');
+if operador == ("-"):
+    print (f'subtração: {n1 - n2}')
+elif operador == ("+"):
+    print (f'adição: {n1 + n2}')
+elif operador == ("*"):
+    print (f'multiplicação: {n1 * n2}')
+elif operador == ("/"):
+    print  (f'divisão:{round (n1 / n2, 3)}');
+else: 
+    print ("o valor não é valido")

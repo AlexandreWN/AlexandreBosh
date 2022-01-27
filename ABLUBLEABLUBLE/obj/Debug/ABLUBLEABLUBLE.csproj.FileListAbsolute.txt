@@ -1,0 +1,10 @@
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\bin\Debug\ABLUBLEABLUBLE.exe.config
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\bin\Debug\ABLUBLEABLUBLE.exe
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\bin\Debug\ABLUBLEABLUBLE.pdb
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.Form1.resources
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.Properties.Resources.resources
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.exe
+C:\Users\aluno\Desktop\ABLUBLEABLUBLE\obj\Debug\ABLUBLEABLUBLE.pdb

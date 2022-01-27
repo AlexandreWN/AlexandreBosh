@@ -1,0 +1,12 @@
+lista = [20/20/2000, 25/3k/2000, 25/08/2002]
+
+for c in lista:
+	x = c.split('/')
+	for i in x:
+		if i.isnumeric() == True:
+			z =+ 1
+	if z == 3
+		print("verdadeiro")
+	else:
+		print ("falso")
+		

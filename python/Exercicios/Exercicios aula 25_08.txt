@@ -1,0 +1,56 @@
+"""EXERCICIO 01"""
+
+while True:
+    mes = int(input("digite um numero que represente um mês entre 1 e 12: "))
+    if mes >= 1 and mes <= 12:
+        break
+if mes == 2:
+    print ("O mês tem 28 dias")
+elif mes % 2 == 0:
+    if mes < 8:
+        print ("O mês tem 30 dias")
+    else:
+        print ("O mês tem 31 dias")
+if mes % 2 == 1:
+    if mes < 8:
+        print ("O mês tem 31 dias")
+    else:
+        print ("O mês tem 30 dias")
+
+"""EXERCICIO 02"""
+peso = float (input ("Digite seu peso: "))
+altura = float (input ("Digite sua altura em metros: "))
+IMC = (round (peso / altura ** 2, 2))
+print (f"Seu IMC é: {IMC}")
+
+if IMC < 20:
+    print ("Abaixo do peso")
+elif IMC >= 20 and IMC < 25:
+    print ("Peso normal")
+elif IMC >= 25 and IMC < 30: 
+    print ("Acima do peso")
+else:
+    print ("Obesidade")
+
+"""EXERCICIO 03"""
+nome = (input ("Digite o nome do aluno: "))
+
+while True:
+    dias = int(input("digite um numero de dias na semana que faz o curso de 1 a 7: "))
+    if dias >= 1 and dias <= 7:
+        break
+
+while True:
+    curso = (input(f"""digite o curso que faz: 
+    B para basico
+    I intermediario
+    A avançado """))
+    if curso == ("B") or curso == ("I") or curso == ("A"):
+        break
+    
+if curso == ("B"):
+    print (f"seu curso custa:{(dias * 7) * 15} R$ ")
+elif curso == ("I"):
+    print (f"seu curso custa:{(dias * 8.5) * 20} R$ ")
+elif curso == ("A"):
+    print (f"seu curso custa: {(dias * 10) * 25} R$ ")

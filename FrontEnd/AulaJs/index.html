@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="alert alert-primary" role="alert">
+        This is a primary alert—check it out!
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+        This is a secondary alert—check it out!
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        This is a success alert—check it out!
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        This is a danger alert—check it out!
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("span").click(function(){
+                $(".teste").html("ALERTAS BLOQUEADOS");
+            });
+        });
+    </script>
+
+    <body>
+        <span class="teste alert alert-primary"       role="alert">Alerta</span>
+    </body>
+</body>
+</html>

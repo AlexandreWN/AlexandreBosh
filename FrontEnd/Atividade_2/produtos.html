@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario | GN</title>
+</head>
+<body>
+    <header class="menu">
+		<div class="menu-container">
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="cliente.html">Cliente</a></li>
+					<li><a href="fornecedor.html">Fornecedor</a></li>
+					<li><a href="funcionario.html">Funcionario</a></li>
+					<li><a href="produtos.html">Produto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Produtos</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome produto</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Nome fornecedor</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="number" name="Quantidade" id="Quantidade" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Quantidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cnpj" id="cnpj" class="inputUser" required pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
+                    <label for="cnpj" class="labelInput">Identificador/lote</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="eps" id="esp" class="inputUser" required>
+                    <label for="esp" class="labelInput">Tipo</label>
+                </div>
+                <br><br>
+                <label for="data_fund"><b>Data que foi Fabricado:</b></label>
+                <input type="date" name="data_fund" id="data_fund" required>
+                <br><br>
+                <label for="data_fund"><b>Data de validade:</b></label>
+                <input type="date" name="data_fund" id="data_fund" required>
+                <br><br>
+                <textarea name="DEscrição dos produtos" id="prod" cols="30" rows="21" placeholder="Descrição dos produtos:"></textarea>
+                <br><br>
+                <div class="coisa">
+                    <input type="submit" name="submit" id="submit">
+                    <input type="reset" name="reset" id="cancel">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

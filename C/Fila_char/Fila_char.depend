@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638801223 source:c:\users\aluno\desktop\bosch\c\fila_char\main.c
+	<stdio.h>
+	<stdlib.h>
+

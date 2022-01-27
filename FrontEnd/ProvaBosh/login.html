@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cab">
+		<div class="menu">			
+            <p>Robert</p>
+            <p id="gradiente"><b>Bosch</b></p>
+            <p>Ltda</p>
+            <p>-</p>
+            <p><b>Desenvolvimento de Sistemas</b></p>
+            <p id="botvolt"><a href="file:///S:/COM/Human_Resources/01.Engineering_Tech_School/02.Internal/10%20-%20Aprendizes/5%20-%20Desenvolvimento%20de%20Sistemas/1%20-%20Alunos/Alexandre%20W.%20Nikitin/FrontEnd/ProvaBosh/index.html">Página inicial</a></p>
+		</div>
+	</header>
+    <div class="box">
+        <div>
+            <h1 id="titulo">Inscreva-se para o processo</h1>
+            <br>
+        </div>
+        <form action="">
+            <div class="campo">
+                <label class="k" for="nome">Nome:</label>
+                <input class="t" type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label class="k" for="sobrenome">Idade:</label>
+                <input class="t" type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div class="campo">
+                <label class="k" for="email">Email:</label>
+                <input class="t" type="email" name="email" id="email" required>
+            </div>
+
+            <button onclick="calculaVagas"><a class="bot1">Enviar Inscrição</a></button>
+
+        </form>
+    </div>
+    <script type="text/javascript">
+        var vagas = 5
+        function calculaVagas(){
+            vagas = (vagas - 1)
+            alert(vagas)
+        }
+    </script>
+</body>
+</html>

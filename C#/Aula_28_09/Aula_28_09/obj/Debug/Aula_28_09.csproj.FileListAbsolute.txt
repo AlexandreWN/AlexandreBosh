@@ -1,0 +1,7 @@
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\bin\Debug\Aula_28_09.exe.config
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\bin\Debug\Aula_28_09.exe
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\bin\Debug\Aula_28_09.pdb
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\obj\Debug\Aula_28_09.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\obj\Debug\Aula_28_09.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\obj\Debug\Aula_28_09.exe
+C:\Users\disrct\Desktop\Aula_28_09\Aula_28_09\obj\Debug\Aula_28_09.pdb

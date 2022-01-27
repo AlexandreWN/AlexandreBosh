@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639485230 source:c:\users\aluno\desktop\bosch\c\atv_realloc\atv_realoc\main.c
+	<stdio.h>
+	<stdlib.h>
+

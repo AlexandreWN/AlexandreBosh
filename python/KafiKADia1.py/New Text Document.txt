@@ -1,0 +1,37 @@
+# importando as bibliotecas
+from kafka import KafkaConsumer
+import pandas as pd
+
+#configuração do kafka
+brokers = ['ct-br.exaas.bosch.com:9092']
+topic = 'testCt-2'
+consumer = KafkaConsumer(topic, group_id = 'Alexandre', bootstrap_servers = brokers)
+
+#geração da nuvem de palavras em tempo real
+lista = []
+a = 0
+try:
+    arq = open ('arquivo.csv', 'w')
+    for messagem in consumer:
+        mensagem = ""
+        messagem = messagem.value.decode('utf-8')
+        for c in messagem:
+            if(c == '{' or c == '}' or c == '"' or c == ','):
+                pass
+            else:
+                mensagem += c
+        print(mensagem)
+        print('\n')
+        lista.append(mensagem)
+        lista = mensagem.split(' ')
+        
+        for c in len(lista):
+            if(c == 'time:' or c == 'temp:' or c == 'air_pressure:' or c == 'humidity:' or c == 'product:' or c == 'station:')
+                lista.pop(a)
+                a +=1
+        arq.write(f'{lista}\n')
+except Exception:
+    print('deu erro')
+finally:
+    arq.close()
+  

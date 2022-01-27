@@ -1,0 +1,15 @@
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\bin\Debug\Banco.exe.config
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\bin\Debug\Banco.exe
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\bin\Debug\Banco.pdb
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\obj\Debug\Banco.exe
+C:\Users\Aluno.CCH01LABF016\Desktop\Banco\obj\Debug\Banco.pdb
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\obj\Debug\Banco.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\obj\Debug\Banco.exe
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\obj\Debug\Banco.pdb
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\bin\Debug\Banco.exe.config
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\bin\Debug\Banco.exe
+C:\Users\alexa\Desktop\Repositório\Bosch-2\Banco\bin\Debug\Banco.pdb

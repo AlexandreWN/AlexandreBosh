@@ -1,0 +1,30 @@
+//Matriz
+            int[] matriz = new int[10];
+            // variaveis 
+            int x,maior = 0,menor = 0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Digite um numero");
+                x = int.Parse(Console.ReadLine());
+                matriz[i] = x;
+                if (i == 0)
+                {
+                    maior = matriz[i];
+                    menor = matriz[i];
+                }
+                else
+                {
+                    if (matriz[i] > maior)
+                    {
+                        maior = matriz[i];
+                    }
+                    if (matriz[i] < menor)
+                    {
+                        menor = matriz[i];
+                    }
+                }
+                
+            }
+            Console.WriteLine("Seu maior número é: {0} ", maior);
+            Console.WriteLine("Seu menor número é: {0} ", menor);

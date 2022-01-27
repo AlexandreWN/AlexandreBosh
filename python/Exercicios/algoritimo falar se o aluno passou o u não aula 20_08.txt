@@ -1,0 +1,36 @@
+Algoritimo: ver se o aluno passou
+
+inicio
+	var 
+	  real: N1, N2, N3 Resultado;
+
+	Escreva "Nota 1";
+	Leia N1;
+	
+	Escreva "Nota 2";
+	Leia N2;
+	
+	Escreva "Nota 3";
+	Leia N3;
+
+	Resultado = (N1 + N2 + N3) / 3 ;
+
+	Escreva "A nota do aluno foi: " +Resultado;
+
+		Se Resultado <= 4.9;
+      			então	
+				Resultado = 10 - Resultado + 2;
+			  	escreva "aluno em recuperação";
+			  	escreva "o aluno precisa de mais: " +Resultado
+		 	     		Se Resultado = 5 e <= 6.9;
+		              			então 
+			        			Resultado = 10 - Resultado + 2;
+			         			escreva "aluno em prova final";
+			         			escreva "o aluno precisa de mais: " +Resultado
+			           				senao
+			            					escreva "saluno passou";
+		  			Fim_se;
+		Fim_se;
+		
+
+fim

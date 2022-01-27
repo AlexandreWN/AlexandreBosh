@@ -1,0 +1,91 @@
+"""EXERCICIO 04"""
+"""A = int (input("Digite o valor de A: ")) 
+B = int (input("Digite o valor de B: "))
+print(f''' 
+(A) VAle: {A}
+(B) vale: {B}''')
+C = A
+A = B
+B = C
+print(f'''Os valores envertidos são: 
+(A) VAle: {A}
+(B) vale: {B}''')"""
+
+
+"""EXERCICIO 05"""
+'''C = float (input ("Digite a temperatura em graus celsius: "))
+print (f"""sua temperatura é: {C} °C""")
+F = (9*C+160)/5
+print (f"""sua temperatura é: {F} °F""")'''
+
+
+"""EXERCICIO 06"""
+real = float (input ("Digite o valor em reais: "))
+print(f""" Seu valor em reias é de: 
+    {real}""")
+    
+cot = float (input ("Digite o valor da cotação: "))
+print(f""" Valor da cotação é de: 
+    {real}""")    
+dolar = real / cot
+
+print(f""" Valor em dolares: {dolar}""" )
+
+
+"""EXERCICIO 07"""
+byte = float (input ("digite o valor em bytes"))
+
+gigabyte = byte / (1024 ** 3)
+print ("seu valor em gigabyte é:")
+print (gigabyte)
+
+
+"""EXERCICIO 08"""
+
+N1 = float (input ("digite a nota 1: "))
+N2 = float (input ("digite a nota 2: "))
+
+valor = ((N1 * 4) + (N2 * 6)) / 10;
+print ("seu valor é:")
+print (valor)
+
+
+"""EXERCICIO 01 IF"""
+nota = float (input("Digite a nota 1 do aluno: "))
+if nota >= 0 and nota <= 10:
+    print(f""" A nota do aluno foi {nota}""")
+if nota < 5:
+    print (f""" Nota vermelha: {nota}""")
+if nota > 8:
+    print (f"""parabens""")
+if nota >= 5 and nota <= 8:
+    print (f"""nota azul""")
+else:
+    print ("acabou")
+
+"""EXERCICIO 02 IF"""
+nome = (input("Digite meu nome: "))
+if nome == ("Alexandre"):
+    print ("nome correto")
+else:
+    print ("nome errado")
+
+"""EXERCICIO 03 IF"""
+
+cap = float (input("Digite a capacidade de peso em kg: "))
+pessoas = []
+for c in range(0, 5):
+    peso = float (input("Digite o peso de uma pessoa"))
+    pessoas.append(peso)
+if sum(pessoas) <= cap:
+    print ("Liberado")
+else:
+    print ("garga maxima atingida")
+
+"""EXERCICIO 04 IF"""
+ano = float (input("Digite seu ano"))
+
+if ano % 400 == 0 or ano % 4 == 0 and ano != 0:
+    print ("bissexto")
+else:
+    print ("o ano não é bissexto") 
