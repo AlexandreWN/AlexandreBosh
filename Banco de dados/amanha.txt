@@ -1,0 +1,121 @@
+/*create database db_Biblioteca*/
+
+use db_Biblioteca
+
+create table tbl_Autores(
+Id_Autor int identity (1,1) not null,
+Nome_Autor char(50) not null,
+Sobrenome_autor char(50) not null
+constraint Pk_Autores primary key (Id_Autor)
+)
+
+create table tbl_Editoras(
+Id_Editoras int identity (1,1) not null,
+nome_Editora char(50) not null,
+constraint Pk_Editoras primary key (Id_Editoras)
+)
+
+create table tbl_Livro(
+Id_Livro int identity(1,1) not null,
+Nome_livro char(50) not null,
+ISBN char(50),
+Data_Pub date,
+Preco_livro decimal not null,
+Id_Autor int not null,
+Id_Editoras int not null,
+constraint Pk_Livro primary key (Id_Livro),
+constraint Fk_Id_Autor foreign key (Id_Autor) references tbl_Autores (Id_Autor),
+constraint Fk_Id_Editoras foreign key (Id_Editoras) references tbl_Editoras (Id_Editoras)
+)
+
+/*inserts*/
+
+insert into tbl_Autores(Nome_Autor,Sobrenome_autor) values ('Daniel', 'Barret')
+insert into tbl_Autores(Nome_Autor,Sobrenome_autor) values ('Gerald', 'Cater')
+insert into tbl_Autores(Nome_Autor,Sobrenome_autor) values ('Mark', 'Sobell')
+insert into tbl_Autores(Nome_Autor,Sobrenome_autor) values ('William', 'Stanek')
+insert into tbl_Autores(Nome_Autor,Sobrenome_autor) values ('Richard', 'Blum')
+ 
+select * from tbl_Autores
+ 
+insert into tbl_Editoras(nome_Editora) values ('Prentice Hall')
+insert into tbl_Editoras(nome_Editora) values ('O´Reilly')
+insert into tbl_Editoras(nome_Editora) values ('Microsoft Press')
+insert into tbl_Editoras(nome_Editora) values ('Wiley')
+ 
+select * from tbl_Editoras
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras) 
+values('Linux Command Line and Shell Scripting', 143856969, '20091221', 68.35, 5, 4 )
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras) 
+values('SSH the Secure Shell', 127658789, '20091221', 58.30, 1, 2)
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras) 
+values('Using Samba', 123856789, '20001221', 61.45, 2, 2)
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras)
+values('Fedora and Red Hat Linux', 123346789, '20101101', 62.24, 3, 1)
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras) 
+values('Windows Server 2012 Inside Out', 123356789, '20040517', 66.80, 4, 3)
+ 
+insert into tbl_Livro(Nome_livro, ISBN, Data_Pub, Preco_livro, Id_Autor, Id_Editoras) 
+values('Microsoft exchange Server 2010', 123366789, '20001221', 45.30, 4, 3)
+
+
+
+SALVAR
+
+/*create table tbl_Tipo(
+Id_Tipo int identity (1,1) not null Primary Key,
+Descricao char(50) not null)*/
+
+/*
+create table tbl_Cliente(
+Id_Cliente int identity (1,1) not null Primary Key,
+nome_Cliente char(100),
+cpf_Cliente char(20)
+)
+*/
+
+/*
+create table tbl_Emprestimo(
+Id_Emprestimo int identity (1,1) not null Primary Key,
+data_emprestimo date not null,
+data_devolucao date,
+Id_Livro int not null,
+Id_Cliente int not null,
+Foreign Key (Id_Livro) References tbl_Livro,
+Foreign Key (Id_Cliente) References tbl_Cliente
+)
+*/
+/*
+create table tbl_Score(
+Id_Score int identity (1,1) not null Primary Key,
+pontos int not null,
+Id_Cliente int not null,
+Foreign Key (Id_Cliente) References tbl_Cliente
+)
+*/
+
+/*INSERTS TABELA TIPO*/
+/*
+insert into tbl_Tipo(Descricao) values ('terror')
+insert into tbl_Tipo(Descricao) values ('aventura')
+insert into tbl_Tipo(Descricao) values ('comedia')
+insert into tbl_Tipo(Descricao) values ('drama')
+insert into tbl_Tipo(Descricao) values ('romance')
+*/
+
+/*INSERTS TABELA CLIENTE*/
+/*
+insert into tbl_Cliente(nome_Cliente, cpf_Cliente) values ('Alexandre', '123.123.123-99')
+insert into tbl_Cliente(nome_Cliente, cpf_Cliente) values ('Bruno', '456.456.456-98')
+insert into tbl_Cliente(nome_Cliente, cpf_Cliente) values ('Luis', '789.789.789-97')
+insert into tbl_Cliente(nome_Cliente, cpf_Cliente) values ('Murilo', '741.741.741-96')
+insert into tbl_Cliente(nome_Cliente, cpf_Cliente) values ('Carlo', '852.852.852-95')
+*/
+
+insert into tbl_Emprestimo(data_emprestimo,data_devolucao,Id_Livro,Id_Cliente) values ()
+
