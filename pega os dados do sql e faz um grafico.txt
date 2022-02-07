@@ -30,4 +30,5 @@ plt.title('Luminosidade por Tempo')
 plt.xticks(rotation=90)
 
 
+https://tomaztsql.wordpress.com/2018/06/18/real-time-data-visualization-with-sql-server-and-python-dash/
 '''create table dadosss( id int not null identity(1,1) primary key, valor int not null, tempo datetime default current_timestamp);'''
