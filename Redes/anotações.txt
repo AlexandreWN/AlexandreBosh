@@ -1,0 +1,17 @@
+- Processador (CPU) - Frequencia
+núcleo
+cache
+fsb
+controlador
+registrador
+contador
+
+HAL - Define como o SO (Sistema Operacional) interage com o hardware.
+ISA - Define como a CPU (processador) é controlada pelo software. Barramento interno de 16 bits
+
+A virtualização, pode ser considerada um produto, uma vez que é possível adquirir soluções por meio de um software.
+
+Computação na nuvem - arquitetura de TI.
+
+host - servidor
+stand alone - maquina local
