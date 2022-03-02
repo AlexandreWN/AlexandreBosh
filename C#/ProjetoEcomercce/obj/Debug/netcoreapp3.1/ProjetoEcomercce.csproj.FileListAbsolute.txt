@@ -1,0 +1,14 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.deps.json
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.runtimeconfig.json
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.runtimeconfig.dev.json
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.dll
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\bin\Debug\netcoreapp3.1\ProjetoEcomercce.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.AssemblyInfo.cs
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.dll
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\ProjetoEcomercce\obj\Debug\netcoreapp3.1\ProjetoEcomercce.genruntimeconfig.cache
