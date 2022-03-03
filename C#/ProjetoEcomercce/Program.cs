@@ -110,7 +110,7 @@ namespace ProjetoEcomercce
                     case 4:
                         for (int i = 0; i < Carrinho.Count; i++)
                         {
-                            for (int c = 0; i < Carrinho.Count; i++)
+                            for (int c = 0; i < Carrinho.Count; c++)
                             {
                                 total += Carrinho[c].valorTotalProduto;
                             }
