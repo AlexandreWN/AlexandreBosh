@@ -1,0 +1,10 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\bin\Debug\Projeto_FIFA.exe.config
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\bin\Debug\Projeto_FIFA.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\bin\Debug\Projeto_FIFA.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.Form1.resources
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.Properties.Resources.resources
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.csproj.GenerateResource.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Projeto_FIFA\Projeto_FIFA\obj\Debug\Projeto_FIFA.pdb

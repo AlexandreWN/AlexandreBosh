@@ -1,0 +1,15 @@
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\bin\Debug\FifaAplication.exe.config
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\bin\Debug\FifaAplication.exe
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\bin\Debug\FifaAplication.pdb
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.csproj.AssemblyReference.cache
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.Properties.Resources.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.csproj.GenerateResource.cache
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.csproj.CoreCompileInputs.cache
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.exe
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.pdb
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.Login.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.ValidaEmail.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.EsqueciSenha.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.NovaSenha.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.TempLogin.resources
+C:\Users\disrct\source\repos\FifaAplication\FifaAplication\obj\Debug\FifaAplication.TelaPrincipal.resources

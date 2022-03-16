@@ -1,0 +1,10 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\bin\Debug\TesteAutoComplete.exe.config
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\bin\Debug\TesteAutoComplete.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\bin\Debug\TesteAutoComplete.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.Form1.resources
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.Properties.Resources.resources
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.csproj.GenerateResource.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\TesteAutoComplete\TesteAutoComplete\obj\Debug\TesteAutoComplete.pdb
