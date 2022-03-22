@@ -1,0 +1,7 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\bin\Debug\RevisaoClasses.exe.config
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\bin\Debug\RevisaoClasses.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\bin\Debug\RevisaoClasses.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\obj\Debug\RevisaoClasses.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\obj\Debug\RevisaoClasses.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\obj\Debug\RevisaoClasses.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoClasses\RevisaoClasses\obj\Debug\RevisaoClasses.pdb
