@@ -1,0 +1,8 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\bin\Debug\Exercicio01.exe.config
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\bin\Debug\Exercicio01.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\bin\Debug\Exercicio01.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\obj\Debug\Exercicio01.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\obj\Debug\Exercicio01.csproj.SuggestedBindingRedirects.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\obj\Debug\Exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\obj\Debug\Exercicio01.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\RevisaoProva\Exercicio01\Exercicio01\obj\Debug\Exercicio01.pdb
