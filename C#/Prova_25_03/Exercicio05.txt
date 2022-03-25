@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+{
+    internal class Program
+    {
+        public static void senhas(string senha)
+        {
+            string resposta = " ";
+            string texto;
+            string numeros;
+            List<char> car = new List<char>();
+            List<char> carr = new List<char>();
+            List<char> list = new List<char>();
+            texto = "abcdefghijklmnopqrstuvwxyz";
+            numeros = "0123456789";
+            foreach (char c in texto)
+            {
+                car.Add(c);
+            }
+            foreach (char c in numeros)
+            {
+                carr.Add(c);
+            }
+            foreach (char c in senha)
+            {
+                list.Add(c);
+            }
+            for (int s = 0; s < list.Count; s++)
+            {
+                if (car.Contains(list [s]))
+                {
+                    for (int i = 0; i < car.Count; i++)
+                    {
+                        if (car[i] == list[s])
+                        {
+                            resposta += i+"";
+                        }
+                    }
+                }
+                else if (carr.Contains(list[s]))
+                {
+                    for (int de = 0; de < car.Count; de++)
+                    {
+                        if (car[de] == list[s])
+                        {
+                            resposta += texto[de];
+                        }
+                    }
+                }
+                else
+                {
+                    resposta += list[s];
+                }
+            }
+            Console.WriteLine(resposta);
+        }
+
+        static void Main(string[] args)
+        {
+            string senha;
+            Console.WriteLine("Digite uma senha");
+            senha = Console.ReadLine();
+
+            senhas(senha);
+        }
+    }
+}

@@ -1,0 +1,104 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+{
+    internal class Program
+    {
+        struct Receita
+        {
+            private string nome;
+            private int qtdIngredientes;
+            private string ingredientes;
+
+            public Receita(string nome, int qtdIngredientes, string ingredientes)
+            {
+                this.nome = nome;
+                this.qtdIngredientes = qtdIngredientes;
+                this.ingredientes = ingredientes;
+            }
+
+            public string Nome
+            {
+                get { return nome; }
+                set
+                {
+                    if (nome.Length <= 25)
+                    {
+                        nome = value;
+                    }
+                    else
+                    {
+                        nome = "";
+                    }
+                }
+            }
+            public int qtd
+            {
+                get { return qtdIngredientes; }
+                set { qtdIngredientes = value; }
+            }
+            public string ingrediente
+            {
+                get { return ingredientes; }
+                set { ingredientes = value; }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            string nome, ingredientes, nomeBusca;
+            int qtdIngredientes, contador = 1, s = 0;
+            bool x = true, d = true;
+
+            List<Receita> receitaList = new List<Receita>();
+
+            while (x)
+            {
+                
+                if (contador == 6)
+                {
+                    x = false;
+                }
+                else
+                {
+                    Console.WriteLine("Digite o nomne da receita menor que 25 caracteres");
+                    nome = Console.ReadLine();
+                    Console.WriteLine("Digite o ingrediente");
+                    ingredientes = Console.ReadLine();
+                    Console.WriteLine("Digite a quantidade do ingrediente");
+                    qtdIngredientes = int.Parse(Console.ReadLine());
+
+                    receitaList.Add(new Receita(nome, qtdIngredientes, ingredientes));
+                }
+                contador++;
+            }
+            while (d)
+            {
+                Console.WriteLine("Digite o nome da receita");
+                nomeBusca = Console.ReadLine();
+                for (int i = 0; i < receitaList.Count; i++)
+                {
+                    if (receitaList[i].Nome == nomeBusca)
+                    {
+                        Console.WriteLine($"{receitaList[i].Nome}: {receitaList[i].ingrediente} qtd ingrediente: {receitaList[i].qtd}");
+                        s = 1;
+                    }
+                }
+                if (s == 0)
+                {
+                    Console.WriteLine("Receita não encontrada");
+                }
+                else
+                {
+                    d = false;
+                }
+
+            }
+
+        }
+    }
+}

@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> list2 = new List<string>();
+            string texto;
+            string texto2 = "";
+            int op;
+            bool x = true;
+
+            do 
+            {
+                Console.WriteLine("Gostaria de Digitar uma nova string?");
+                Console.WriteLine("1 para sim");
+                Console.WriteLine("2 para não");
+                op = int.Parse(Console.ReadLine());
+                //Pega as strings
+                switch (op)
+                {
+                    case 1:
+                        List<char> list1 = new List<char>();
+                        Console.WriteLine("Digite uma string");
+                        texto = Console.ReadLine();
+
+                        foreach (char s in texto)
+                        {
+                            list1.Add(s);
+                        }
+                        list1.Sort();
+                        for (int i = 0; i < list1.Count; i++)
+                        {
+                            texto2 += list1[i];
+                        }
+                        list2.Add(texto2);
+                        texto2 = "";
+                        break;
+                    case 2:
+                        for (int i = 0; i < list2.Count; i++)
+                        {
+                            Console.WriteLine(list2[i]);
+                        }
+                        x = false;
+                        break;
+                }
+            }while (x);
+        }
+    }
+}

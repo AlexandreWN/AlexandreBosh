@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //VAriaveis
+            double nota1, nota2, nota3, resposta;
+            int op;
+
+            //Recebe as notas
+            Console.WriteLine("Digite a nota1: ");
+            nota1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a nota2: ");
+            nota2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a nota3: ");
+            nota3 = double.Parse(Console.ReadLine());
+            Console.Clear();
+
+            //Escolhe o Tipo de média desejada
+            Console.WriteLine("Diite o tipo de média desejada");
+            Console.WriteLine("Digite 1 para aritimética");
+            Console.WriteLine("Digite 2 para ponderada");
+            Console.WriteLine("Digite 3 para harmônica");
+            op = int.Parse(Console.ReadLine());
+            switch (op)
+            {
+                case 1:
+                    Console.WriteLine("aritimética");
+                    resposta = (nota1 + nota2 + nota3) / 3;
+                    Console.WriteLine(resposta);
+                    break;
+                case 2:
+                    Console.WriteLine("ponderada");
+                    resposta = (nota1*3 + nota2*3 + nota3*4) / (3+3+4);
+                    Console.WriteLine(resposta);
+                    break;
+                case 3:
+                    Console.WriteLine("harmônica");
+                    resposta = 3/(1/(nota1 + 1)/(nota2 + 1)/ nota3);
+                    Console.WriteLine(resposta);
+                    break;
+            }
+        }
+    }
+}

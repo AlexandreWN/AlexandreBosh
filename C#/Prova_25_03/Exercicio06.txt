@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+    {
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+                double emprestado, pagoMes, pagDivida = 0, pagJuros = 0, qtdmes, juros, jurosmes, divida, faltapagar;
+
+                Console.WriteLine("Digite o valor que irá emprestar");
+                emprestado = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Quanto vai pagar por mes?");
+                pagoMes = double.Parse(Console.ReadLine());
+
+                qtdmes = emprestado / pagoMes;
+                divida = qtdmes;
+                qtdmes = Math.Ceiling(qtdmes);
+
+                juros = (emprestado * qtdmes) / 100;
+
+                jurosmes = juros / qtdmes;
+                faltapagar = emprestado;
+
+                for (int i = 1; i <= qtdmes; i++)
+                {
+                    pagJuros += jurosmes;
+                    pagDivida = pagoMes - jurosmes;
+                    faltapagar -= pagoMes;
+                    Console.WriteLine($"O mes é {i}, o valor dos juros pagos no total é {juros}, \no numero de meses nescessários para pagar é {qtdmes}, \no valor aplicado no pagamento da divida foi {pagDivida},\nvalor acumulado de juros ja pagos é {pagJuros} e falta pagar ainda {faltapagar} \na ultima prestação é de {pagoMes}\n\n\n");
+                }
+            }
+        }
+    }

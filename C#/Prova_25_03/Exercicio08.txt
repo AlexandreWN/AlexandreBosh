@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicio01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<char> A = new List<char>();
+            List<char> B = new List<char>();
+            List<char> C = new List<char>();
+            List<char> D = new List<char>();
+
+            string ta = "abcdefg";
+            string tb = "hijklmn";
+
+            foreach(char c in ta)
+            {
+                A.Add(c);
+            }
+            foreach (char c in tb)
+            {
+                B.Add(c);
+            }
+
+            for (int i = 0; i < A.Count; i++)
+            {
+                C.Add(A[i]);
+                C.Add(B[i]);
+            }
+
+            for (int i = 0; i < A.Count; i++)
+            {
+                D.Add(A[i]);
+            }
+
+            for(int i = 0; i < B.Count; i++)
+            {
+                D.Add(B[i]);
+            }
+
+            for(int j = 0; j < A.Count; j++)
+            {
+                Console.Write(A[j] + " ");
+            }
+            Console.WriteLine(" ");
+            for (int j = 0; j < B.Count; j++)
+            {
+                Console.Write(B[j] + " ");
+            }
+            Console.WriteLine(" ");
+            for (int j = 0; j < C.Count; j++)
+            {
+                Console.Write(C[j] + " ");
+            }
+            Console.WriteLine(" ");
+            for (int j = 0; j < D.Count; j++)
+            {
+                Console.Write(D[j] + " ");
+            }
+            Console.WriteLine(" ");
+        }
+    }
+}
