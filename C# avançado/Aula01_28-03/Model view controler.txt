@@ -1,0 +1,50 @@
+tres camadas: controller, model e view se comunicando.
+
+MODEL
+	1-Modelagem de objetos;
+	2-Camada responsável por conexão ao banco de dados;
+	3-Validar informações. (TALVEZ)
+
+VIEW
+	1-Responsavel pela innteração com o usuário;
+	2-Regras de negócio não devem existir nessa camada por segurança;
+	3-Responsável por melhor experiencia do usuário;
+	4-Responsável por implementar regras de user interface (UI) e user experiencie (UX).
+
+CONTROLLER
+	1-Provavelmente a camada com maior responsabilidade dentro do modelo MVP;
+	2-Recebe todas as interações realizadas pelo usuário na view;
+	3-Trata questões de segurança e acesso (bloqueios e barramentos de ações);
+	4-Implementam suas regras de negócio nessa camada.
+
+
+
+SISTEMAS MONOLITICOS
+	1-Sistemas muito comuns que todas as camadas estão npm mesmo sistema;
+	2-Fortemente aclopados, todas as camadas dependem uma das outras;
+	3-Dificil migração para novas tecnologias ou tecnologias diferentes;
+	4-Sistemas mais simples e de mais facil manutenção;
+	5- Exigem conhecimento em somente uma tecnologia normalmente, tornando a curva de adaptação menor.
+
+SISTEMAS DESACLOPADOS
+	1-Forma mais contemporânea do backend;
+	2-Divide o front do backend, podendo ter tecnologias rodando junto;
+	3-Comunicação normalmente via REST;
+	4-Torna o processo de migração mais simples;
+	5-Facilmente aplicável microsserviços para divisão de responsabilidades de aplicações não criando sistemas inflados.
+
+
+
+MVC E SISTEMAS DESACLOPADOS
+	1-Foi proposto para sistemas aclopados e monoliticos;
+	2-As camadas devem trabalhar de forma independente;
+	3-Separa camada comum da view do sistema.
+
+
+
+ZONAS CINZENTAS
+	1-Onde devo tratar os dados?
+	2-O front passa a ser a nova aplicação?
+	3-Onde colocar regras de negócios?
+	4-meus dados não são sensiveis, e podem ser tratados em ambos lados, como decidir?
+	5-quais funcionalidades devo por no front? E quais devo colocar no back?
