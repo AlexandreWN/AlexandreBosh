@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\bin\Debug\net6.0\Exemplos.exe
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\bin\Debug\net6.0\Exemplos.deps.json
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\bin\Debug\net6.0\Exemplos.runtimeconfig.json
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\bin\Debug\net6.0\Exemplos.dll
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\bin\Debug\net6.0\Exemplos.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.AssemblyInfo.cs
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.dll
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\refint\Exemplos.dll
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.pdb
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\Exemplos.genruntimeconfig.cache
+C:\Users\disrct\Desktop\AlexandreBosh\C#\Aula20-04\Exemplos\Exemplos\obj\Debug\net6.0\ref\Exemplos.dll
