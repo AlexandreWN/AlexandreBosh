@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.caixa{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.forminput{
+    display: flex;
+    text-align: start;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.formwidht{
+    width: 95%;
+}
+.form-control{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.form-check-input{
+    margin-left: 0;
+}
+.form-check-label{
+    margin-left: 10px;
+}
+.form-check form-switch{
+    flex-direction: row;
+}
+.bar2{
+    margin-top: 25px;
+    width: 95%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 50px;
+    p{
+        font-size: 15px;
+        font-weight: bold;
+        color:white;
+    }
+    background-image: linear-gradient(to right, darkblue,blue,rgb(76, 100, 233));
+    border-radius: 5px;
+}
+.subtitle{
+    margin-top: 15px;
+}
