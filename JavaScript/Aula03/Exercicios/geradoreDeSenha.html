@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="caixa">
+            <div class="opcoes">
+                <input id="tamanho"/>
+                <h5 class="a">Quantidade de caracteres</h5>
+            </div>
+            <div class="opcoes">
+                <input id="maiusculas" type="checkbox">
+                <h5>adicionar maisculas</h5>
+            </div>
+            <div class="opcoes">
+                <input id="minusculas" type="checkbox">
+                <h5>adicionar minusculas</h5>
+            </div>
+            <div class="opcoes">
+                <input id="numeros" type="checkbox">
+                <h5>adicionar numeros</h5>
+            </div>
+            <div class="opcoes">
+                <input id="simbolos" type="checkbox">
+                <h5>adicionar simbolos</h5>
+            </div>
+            <div class="botao">
+                <button onclick="Vai()">Confirmar</button>
+            </div>
+            <div class="opcoes">
+                <h5 class="senha">Sua senha é: </h5>
+                <h5 class="senha" id="s"></h5>
+            </div>
+        </div>
+    </div>
+    <script src="geradorDeSenha.js"></script>
+</body>
+</html>
