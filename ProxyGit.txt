@@ -1,0 +1,1 @@
+git config --global http.proxy http://disrct:etsds10240305@rb-proxy-ca1.bosch.com:8080
