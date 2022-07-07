@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.principal{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(92, 91, 91);
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(194, 194, 194);
+    box-shadow: 3px 3px 3px rgb(32, 32, 32);
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Sans-serif;
+    color: rgb(194, 194, 194);
+}
+.container-jogo{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.score{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    font-family: Sans-serif;
+    color: rgb(194, 194, 194);
+    text-align: start;
+}
+.numero{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+#pergunta{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 8px;
+}
+.resposta{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.opcao{
+    display: flex;
+    flex-direction: row;
+    color: rgb(194, 194, 194);
+    margin-top: 10px;
+}
+.opcao h5{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.opcao input{
+    width: 20px;
+}
+.opcao input:hover{
+    cursor: pointer;
+}
+button{
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    width: 102px;
+    height: 32px;
+    cursor: pointer;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
