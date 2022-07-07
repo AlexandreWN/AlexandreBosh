@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <div class="left">
             <div class="lsuperior">
-                <h1>Agenda De Contatos</h1>
+              <h1>Agenda De Contatos</h1>
             </div>
             <div class="linferior">
                 <a href="cadastro.html">cadastro</a>
@@ -31,8 +32,55 @@
     <div class="principal">
         <form class="formDados">
             <br>
-            <h2>Dados Agenda</h2>
+            <h2 class="sub">Dados Agenda</h2>
+            <table class="table">
+                <thead class="dados">
+                  <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Opções</th>
+                  </tr>
+                </thead>
+                <tbody class="dados">
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                    <td>
+                        <img src="https://www.svgrepo.com/show/162728/delete.svg"></img>
+                        <img src="https://www.svgrepo.com/show/60515/edit.svg"></img>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@mdo</td>
+                    <td>@fat</td>
+                    <td>
+                        <img src="https://www.svgrepo.com/show/162728/delete.svg"></img>
+                        <img src="https://www.svgrepo.com/show/60515/edit.svg"></img>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@mdo</td>
+                    <td>@twitter</td>
+                    <td>
+                        <img src="https://www.svgrepo.com/show/162728/delete.svg"></img>
+                        <img src="https://www.svgrepo.com/show/60515/edit.svg"></img>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
         </form>
+        <div class="btnnovo">
+          <button class="btn2"><a href="http://127.0.0.1:5500/Site/novo.html">Novo Contato</a></button>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

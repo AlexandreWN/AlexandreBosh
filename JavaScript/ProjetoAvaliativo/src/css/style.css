@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    box-shadow: 0px 1px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: row;
+    font-family:Finlandica;
+    font-size: 22px;
+}
+.imagemfundo{
+    display: flex;
+    background: #FFFFFF url("https://i.pinimg.com/736x/24/93/88/249388e945f8d3056c1cfd385e7ea89a.jpg")  center top;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.lfSup{
+    padding: 30px;
+    width: 300px;
+    height: 50%;
+    color:#e7e5e5;
+}
+.lfSup a{
+    text-decoration: none;
+    color:#e7e5e5;
+}
+.lfSup h1:hover{
+    font-size: 45px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+}
+.lfInf{
+    padding-left: 30px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 50%;
+    color: #e7e5e5;
+    font-size: 18px;
+}
+.lfInf a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #e7e5e5;
+}
+.lfInf a:hover{
+    color:#a5a3a3
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.riSup{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #e7e5e5;
+    margin-left: -50px;
+    padding: 30px;
+    width: 100%;
+    height: 50%;
+    font-size: 16px;
+}
+.riSupInt{
+    width: 250px;
+}
+.riInf{
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+}
