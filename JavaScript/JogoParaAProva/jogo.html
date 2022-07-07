@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="container">
+            <h1>Quiz Sobre As Aulas De C#</h1>
+            <div class="container-jogo">
+                <div id="pergunta">
+                    <h1 id="perguntas"></h1>
+                </div>
+                <div class="resposta">
+                    <div class="opcao">
+                        <input id="Verdadeiro" type="checkbox">
+                        <h5>Verdadeiro</h5>
+                    </div>
+                    <div class="opcao">
+                        <input id="Falso" type="checkbox">
+                        <h5>Falso</h5>
+                    </div>
+                </div>
+                <div class="botao">
+                    <button onclick="confirm()">Confirmar</button>
+                </div>
+            </div>
+            <div class="score">
+                <h2>score:</h2>
+                <h2 id="score" class="numero">0</h2>
+            </div>
+        </div>
+    </div>
+    <script src="jogo.js"></script>
+</body>
+</html>
